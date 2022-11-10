@@ -5,13 +5,10 @@ on:
 
 
 
-
-
-
-
 jobs:
   build:
     run-on: ubuntu-latest
+
     steps:
       -name: 'first test'
         run: pwd
