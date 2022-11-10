@@ -12,8 +12,8 @@ jobs:
     run-on: ubuntu-latest
 
     steps:
-      -name: 'first test'
+      - name: 'first test'
         run: pwd
 
-      -name: 'first test print '
+      - name: 'first test print '
         run: echo ahmed
